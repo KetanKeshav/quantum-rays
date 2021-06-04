@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>IEEE Data & Storage Summit 2021(DSS-2021)</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/style.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.5.1' type='text/css' media='all' />
+  <link rel='stylesheet' href='./font-awesome/fontawesome.min.css'>
+  <link rel='stylesheet' href='./font-awesome/brands.min.css'>
+  <link rel='stylesheet' href='./font-awesome/solid.min.css'>
+  <style>
+    html {
+        scroll-behavior: smooth;
+    }
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .agenda {
+        margin-top: 40px;
+    }
+    .summitAgenda {
+      margin-top: 70px;
+    }
+  
+  </style>
+</head>
+<body>
+
+  <!-- Desh Modal -->
+  <div class="modal fade" id="desh" role="dialog">
+      <div class="modal-dialog">
+      
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">DESHBANDHU SINHA, <span class="titlePosition">Program Co-Chair and Head Academia Collaboration, Huawei</span></h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="modalDialogImages">
+                  <img src="./img/desh.jpg" alt="DESHBANDHU" width="270px" />
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="modalContent">
+                  <p>In 15+ years of career, he has gained experience in leading and executing product & solution development in carrier and enterprise grade telecom/networking and in memory database. He has extensive exposure to program management life cycle including designing & execution of project framework, scope management, time & cost management, human resource and professional responsibility & ethics. I have proven my competence in E2E delivery management including technical guidance, stake holder management, problem solving and innovative thinking.</p>
+                  <p>I bring along with me expertise of handling new network roll outs and providing post release support along with exposure to managing customers and offering customized solutions to meet business needs. My knowledge of evolving technologies and the ability to analyze and design appropriate solutions relevant across situations gives me the advantage of being a problem solver in crisis situation as well as an active contributor in regular strategic decisions. This has given me the edge and knowhow of benefitting the organizations, contributing effectively to business growth.</p>
+                  <p>My communication, interpersonal skills and the attitude of ‘never say die’ are key strengths that have seen me through tough situations. Moreover with my strong liaison & relationship skills, I build & maintain long standing relations with stakeholders & key decision makers to strategically secure profitable business. I am deft at monitoring performance and managing complex business challenges with strong work-ethics, interpersonal communication, relationship management and analytical skills.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+
+   <!-- Ankit Modal -->
+  <div class="modal fade" id="ankit" role="dialog">
+      <div class="modal-dialog">
+      
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">ANKIT MATHUR, <span class="titlePosition">Program Co-Chair and Chief Architect, Storage, Huawei</span></h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="modalDialogImages">
+                  <img src="./img/ankit.png" alt="ankit" width="270px" />
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="modalContent">
+                  <p>Technically leading a new innovative project to research for SCM based filesystem with one-side RDMA acceleration.</p>
+                  <p>Key architect and technical contributor of distributed filesystem, which is shipping in Dorado NAS and FusionStorage. He Lead the design and development of Huawei’s next-generation scale-out filesystem which will support bandwidth intensive HPC applications as well as OPS intensive enterprise applications using a common filesystem architecture.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+
+
+
+  <!-- Chengapa Modal -->
+  <div class="modal fade" id="chengapa" role="dialog">
+    <div class="modal-dialog">
+      
+      <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Chengappa M. R, <span class="titlePosition">Program Co-Chair, Hewlett Packard Enterprise</span></h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="modalDialogImages">
+                  <img src="./img/Chengappa M. R..png" alt="chengapa" width="270px" />
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="modalContent">
+                  <p>Chengappa is associated with HP/HPE for a decade and is currently associated with Compute Business Group, catering to the requirements and solutions for telco on NFV Infrastructure. From an early career as an intern software engineer, his current focus areas have moved him into defining, building, and delivering NFV-based telco solutions bringing together technologies that form building blocks integrating Cloud-native applications / VNFs on NFVi platforms. Being IEEE Senior member, he also plays a key role in being part of IEEE Bangalore Section initiatives around Industry engagement, Professional Activities.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+        
+    </div>
+  </div>
+
+  <!--  Ketan K -->
+  <div class="modal fade" id="ketan" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Ketan K, <span class="titlePosition">Software Engineer, KreditBee</span></h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="modalDialogImages">
+                <img src="./img/Ketan.jpg" alt="Ketan" width="270px" />
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="modalContent">
+                <p>Ketan Keshav, is a Computer Science Engineer, currently working as a Software Engineer at KreditBee. He is passionate about Mobile and Web Development, Cyber Security, Coding and Cricket. He completed two internships to further amplify his passion. He is an Experienced Chairperson with a demonstrated history of working in the higher education industry. He is a highly organized and detail-oriented individual with Event Management experience having organized several IEEE Events, hackathons and college workshops. His team was the Regional Level Winner of Technology Dissemination Contest conducted by IEEE Pune Section. He has competed at TCS EngiNX and was the finalist and the 2nd Runner up of this National-level competition. He is currently an Execom member at IEEE Bangalore Section,  Treasurer, IEEE Young Professionals and SCT Mentor, IEEE Bangalore Section. Other titles he holds are Section Chapter Representative, IEEE TEMS, India, Member Student Representative, IEEE Bangalore Section, PR and Promotions Coordinator for Students Activities Committee (SAC), IEEE Bangalore Section, IEEE Chairman and Student Activity Committee(SAC) Chairman for K.S Institute of Technology. Despite his eventful life, he always makes time for family, cricket and volunteers at various NGOs and conducts monthly events which are aimed to make life better for the underprivileged.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  <!-- Abhishek Appaji  -->
+  <div class="modal fade" id="abhishek" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Abhishek Appaji, <span class="titlePosition">Institutional Coordinator for R&D and Assistant Professor at B.M.S. College of Engineering, Bangalore.</span></h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="modalDialogImages">
+                <img src="./img/abhishek.jpg" alt="abhishek" width="270px" />
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="modalContent">
+                <p>Dr. Abhishek Appaji is working as Institutional Coordinator for R&D and Assistant Professor at B.M.S. College of Engineering, Bangalore. 
+                He is also serving as Guest faculty at Maastricht University, the Netherlands. He is a graduate of Massachusetts Institute of Technology 
+                Global Entrepreneurship Bootcamp specialized in new ventures leadership. He obtained his Bachelor of Engineering in Medical Electronics 
+                with University Rank from BMSCE, Masters of Technology in Information Technology, and a Masters of Engineering (M.E) in Bioinformatics 
+                from University Visvesvaraya College of Engineering, Bangalore. His Ph.D. was in Mental Health and Neurosciences from Maastricht University, 
+                the Netherlands. Abhishek is a Senior Member of IEEE. He has served in various volunteering positions at IEEE. Currently, 
+                he is the Chapter coordinator Chair of the IEEE Bangalore Section, Treasurer of IEEE IEEE Computer Society Bangalore Chapter, 
+                Webmaster, and MD Chair for IEEE PES Bangalore Chapter and advisor for IEEE EMB BMSCE Chapter. He is also serving as Secretary of 
+                IEEE Smart Cities Marketing Committee. Abhishek has received various grants from Indian agencies like DST, DBT, BIRAC, and from 
+                abroad. Abhishek has also worked as a research associate in the Centre for Nanoscience and Engineering (CeNSE), Indian Institute of 
+                Science (IISc), Bangalore. He has two patents filed in Medtech Space. He has more than 50 International/National journal publications 
+                and conferences to his credit. He has been a part of more than 150+ Invited expert talks in various conferences, Forums, and events. 
+                He has renowned laurels including IEEE International Best paper Award in Malaysia, MGH CamTech Jugadathon Awards, Best Nodal Coordinator 
+                award, Gandhian Young Technological Innovation Award 2016 at Rastrapathy Bhavan (President of India House) New Delhi, 
+                Elderly care Hackathon (the Netherlands), 
+                Winner of Class 5 Massachusetts Institute of Technology (MIT) Global Entrepreneurship Bootcamp, IEEE MGA Young 
+                Professional Achievement Award, R10 YP achievement award, etc.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Aseem Modal -->
+  <div class="modal fade" id="aseem" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Aseem Vardhan, <span class="titlePosition">Senior Engineering Director Storage R&D, Hewlett Packard Enterprise</span></h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="modalDialogImages">
+                  <img src="./img/Aseem Vardhan.png" alt="Aseem" width="270px" />
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="modalContent">
+                  <p>Aseem Vardhan works as a Senior Director of engineering with the HPE Storage division and leads a global engineering team of R&D engineers to build “Intelligent Storage” that is self-healing and self-managing using AI and ML. Prior to this role, Aseem has spent more than a decade in Operating systems group where he led advanced product development teams in the areas of High Availability, Systems Management, and OS security. During the start of his career, Aseem worked with Sun Microsystem in the Operating systems group in the Bay area as Member of technical staff and then moved to Bangalore to set up the engineering group. Aseem holds an engineering degree in Electrical and Electronics Engineering and Masters in Business Administration with Specialization in technology management from the University of Phoenix.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+  
+    <!-- Prasant Modal -->
+  <div class="modal fade" id="prasant" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Prasant Misra, <span class="titlePosition">TCS Researcher</span></h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="modalDialogImages">
+                  <img src="./img/prasant.jpg" alt="prasant" width="270px" />
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="modalContent">
+                  <p>Prasant Misra, Ph.D. is currently working as a Scientist at Corporate Research & Innovation, TATA Consultancy Services Ltd., Bangalore.
+                  Prasant is passionate about building systems "at scale" that can extend human and machine capabilities with newer and better ways of observing and managing the physical world. 
+                  His research cuts across various aspects of computational sensing, optimization, and control of cyber-physical systems. 
+                  His current focus is on smart mobility management. He also has a background in middleware for wireless sensor networks and low-power networked embedded systems.
+                  He has more than ten years of experience in scientific and industrial research. He has worked in different roles and capabilities for: Keane Inc. (a unit of NTT Data Corporation), Bangalore (2006-08); CSIRO Sydney and Brisbane (2008-12); Robert Bosch Centre for Cyber-Physical Systems in the Indian Institute of Science, Bangalore (2013-16)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+    <!-- Senthil Modal -->
+    <div class="modal fade" id="Senthil" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">R. K. Senthil Kumar, <span class="titlePosition">Associate Director , Real Time Systems  Group, CDAC, Bangalore</span></h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="modalDialogImages">
+                  <img src="./img/Senthil.jpg" alt="prasant" width="270px" />
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="modalContent">
+                  <p>RK Senthil Kumar is working as Associate Director , Real Time Systems  Group,  Centre for Development of Advanced Computing (C-DAC) Bangalore. He has more than two decades of  experience in Research and development. Currently he is working in the area of  SCADA Security  and  energy trading models for the power sector. His interests are  Smart Grid, SCADA Security, Agent based Computing, Blockchain, Power systems  and Cloud computing.  Having more than 14 International & National publications.  He is Senior Member of IEEE and also Life member of Computer Society of India (CSI) and Advanced Communication & Computing Society (ACCS).  As Chief Investigator, he has led the team in executing several projects in the area of Smart Grid and Security.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+
+ <!-- Dr. Navin Kumar Modal -->
+  <div class="modal fade" id="navin" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Dr. Navin Kumar, <span class="titlePosition">Chairperson, Electronics and Communication Engineering, School of Engineering, Bengaluru</span></h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="modalDialogImages">
+                <img src="./img/navin.jpg" alt="navin" width="270px" />
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="modalContent">
+                <p>Dr. Navin Kumar serves as Chairperson and Associate Professor at the Department of Electronics and Communication, School of Engineering, Amrita Vishwa Vidyapeetham, Bengaluru.
+Dr. Navin obtained his Ph.D. in Telecommunication Engineering from the University of Porto, Aveiro and Minho – Portugal, Europe (2007-2011) and M.Tech. in Digital System Engineering from Motilal National Institute of Technology, Allahabad, India in the year 2000. He did his bachelor's degree in Engineering from the Institution of Electronics and Telecommunication Engineers, New Delhi in 1996.
+Navin has over 24 years of working experience in Government, Industry and academia in IT and Telecommunications area. He has over 10 years of overseas experience in teaching, research and development. Some of the international research projects he has worked in the team like VIDAS, iLITE (EU). Dr. Navin has over 90 publications in peer-reviewed international journals and IEEE conference proceedings. In addition, he has also authored and edited books and book chapters.
+Navin has been awarded the Fraunhofer Challenge award in the academic year 2010-2011 for the best Ph.D. thesis work. He also received a fellowship grant from Govt. of Portugal towards his Ph.D. research work. Navin is the recipient of the Gowri Memorial award, India in the year 2009 for the best journal paper and multiple best conference papers.
+Dr. Navin has been giving tutorial at IEEE flagship conferences like ICC, WCNC. He regularly speaks and delivers talks as keynote, invited speaker in conferences and workshops. His research area includes 5G (mmWave) Network architecture, 6G, THz Communication, Visible Light Communication, Optical Wireless Communication, Intelligent Transportation Systems, IoT& Smart City and Wireless/Mobile Communications & Networks. 
+He is the Senior Member IEEE, Fellow Institution of Engineers (India), Charter Engineer Institution of Engineers (India), Life Member IETE (India) and AIEng(HK). He is very active in organizing workshops (local and international), conferences etc. He is currently secretary IEEE Bangalore section, Founding chair VTS Bangalore, Past Chair ComSoc and associated with IEEE Photonics, ITS, Consumer Electronics and Sensor council. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+</div>
+
+<!-- M.A.K.P Singh Modal -->
+<div class="modal fade" id="makp" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Shri Murathia Anil Kumar Phool Singh, <span class="titlePosition">CE(IT), CEA, CISO-MoP</span></h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="modalDialogImages">
+              <img src="./img/MAKP.jpeg" alt="MAKP" width="270px" />
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="modalContent">
+              <p>
+                Sh. M A K P SINGH, Chief Engineer (Information Technology & Cyber Security), Central Electricity Authority and designated as Chief Information Security Officer for Ministry of Power, is an Electrical Engineering graduate from IIT Kanpur and holds MBA degree from IIT Delhi.
+Prior to joining Power Sector, he had worked for Schlumberger, Geo Services in Oil Industry and with Automobile leader Maruti Udyog Ltd.
+He joined Central Electricity Authority in 1992. While in CEA he has worked for 12 years in Regional Power Committee of Northern and Western Grid. He has 3 yrs experience of managing Northern Regional load dispatch center. In CEA he had worked in other divisions like Fuel Management, System Planning & Project Appraisal, APDRP cell. He was on deputation for 3 years looking after operation of Combined Cycle Gas Power Plant Kawas of NTPC. He has worked for 5 years as Electrical Inspector in North Eastern Region (all seven sister states). As Electrical Inspector he had the inspected all electrical installations of Govt utilities like NHPC, NEEPCO, POWERGRID besides other industries.
+He has also worked for five years in hydro sector for 5 years as Member(Power), Narmada Control Authority overseeing the O&M of 1450 MW Sardar Sarovar Hydro Plant and Dam. He is very well versed with the crisis that may arise in the hydro as well as thermal plants and have a very good knowledge of the critical information infrastructure in power sector.   
+In the present assignment in CEA, he is looking after the National Power Portal, Cyber Security and working upon various Committees and Groups constituted by Ministry of Power for ensuring cyber security in Power Sector. He is the Chairman of drafting committee of CEA Regulations on Cyber Security in Power Sector. He is working on framing of Scheme for identifying Trusted Source and Trusted Product being procured by Power Sector Utilities. Other important current assignment being handled by him are:
+                <ol>
+                  <li><p>Developing curriculum on cyber security for Load Dispatchers of RLDCs & SLDCs </p></li>
+                  <li><p>Developing Road map for cyber security in Power Sector for next 5 years</p></li>
+                  <li><p>Working on model contractual clauses for ensuring cyber security </p></li>
+                  <li><p>the changes to be made in IT Act, IPC and CrPC for prosecution of Cyber Crimes committed to disrupt and damage power supply system</p></li>
+                  <li><p>He is chairing a Join Working Group of LITD 10 and LITD 17 Panel for developing an Indian Standard for Listing Cyber Tests to be carried out during FAT/SAT and at designated Labs, firm up procedures to carry out these test and develop tools for carrying out these tests</p></li>
+                </ol>
+ 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="container-fluid wrapper">
+  <div class="container-fluid header">
+   
+      
+      <div class="row">
+<!--         <div class="col-md-2 col-xs-12 logoContainer">
+          <a href="#"><img src="./img/logo.png" alt="logo" class="logo" /></a>
+        </div>
+        <div class="col-md-6 col-xs-12 storageConclave">
+          <h3>IEEE Signal Processing Society Forum on Image and Video Signal Processing</h3>
+          <h4>27 March 2021</h4>
+        </div>
+        <div class="col-md-4 col-xs-12 logoContainer">
+          <a href="#"><img src="./img/Bangalore Section Logo-blue.png" alt="bangalore section" class="ieeeLogo" /></a>
+        </div> -->
+      </div>
+  </div>
+      <nav id="myHeader" class="navbar navbar-inverse">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <!-- Collection of nav links, forms, and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+             <!--<li><a href="#speakers">Speakers</a></li>-->
+              <li><a href="#organizing" data-target="#organizing">Organizing Committee</a></li>
+             <!--<li><a href="#agendaSection">Schedule</a></li>-->
+              <li><a href="https://ieeebangalore.org/product-category/ieee-cps/" target="_blank">Registration</a></li>
+            </ul>
+        </div>
+    </nav>
+  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="./img/Banner-Image-1.png" alt="Banner-Image-1" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="./img/Banner-Image-2.png" alt="Banner-Image-2" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="./img/Banner-Image-3.png" alt="Banner-Image-4" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 content">
+			<h2>Quantum Rays (Q-Rays)</h2>
+      <p>Quantum Rays is an assimilation of computing, communications, security with wide-spread applications rapidly developing globally and lots of commercial applications emerging from theoretical constructs developing in this area. Quantum Rays is enabled by the transmission of information-carrying photons; the technology being considered as one of the most promising solutions for the future. While sharing several features and aspirations, quantum communication is an area of active research in its own right. To extrapolate considerably, the eventual goal may be a quantum internet wherein quantum information is transmitted with only acceptable losses across large distances and then transduced across different physical realizations so that quantum computers can essentially communicate to each other. Quantum Rays is expected to open platforms to perform tasks that are intractable for conventional machines, with the future quantum computers capable of doing it in a few seconds. </p>
+      <br>
+      <h2>About the Symposium</h2>
+      <p>Q-RAYS discusses the communication facets towards the next generation transformative quantum technologies that include quantum computers and computing, quantum communication, quantum key distribution, encryption, cryptanalysis, quantum devices, quantum sensing, quantum materials, quantum clock and so on. This one day symposium focuses on how to network quantum processors and quantum information for quantum control. The event aims to deliver quantum based networking solutions and discusses the challenges and opportunities with quantum researchers, scientists, engineers, entrepreneurs, developers, students, practitioners, educators, programmers, and newcomers.</p>
+    </div>
+    </div>
+    <br>
+<div class="row" id="register">
+<center><a href=""><button class="button button1">Registerations opening soon!</button></a></center>
+</div>
+
+<!-- 
+    <div id="agendaSection"  class="row">
+      <div class="col-md-12">
+        <h2 class="summitAgenda">Summit Schedule</h2>
+        <h3>IEEE One Day Online Symposium on</h3>
+        <h1>Data & Storage</h1>
+         <table class="table table-bordered agenda">
+            <thead>
+               <th colspan="4" class="text-center"><h4>Agenda</h4></th>
+            </thead>
+            <tbody>
+              <tr class="topics">
+                <th>Time</th>
+                <th>Topics</th>
+                <th>Speakers</th>
+              </tr>
+              <tr>
+                <td>9:45 AM to 10:00AM </td>
+                <td>About the Symposium</td>
+                <td>• Shri. BS Bindhumadhava, CDAC & Chair IEEE Bangalore Section</td>
+              </tr>
+              <tr>
+                <td>10:05 AM to 10:35 AM</td>
+                <td>Keynote  Address</td>
+                <td> Dr. Kris Gopalakrishnan, Chairman Axilor Ventures</td>
+              </tr>
+              <tr>
+                <td>10:40 AM to 11:10 AM <br> 11:15 AM to 11:35 AM </td>
+                <td>Government Perspective</td>
+                <td>• Dr. B.K. Murthy, Group Coordinator MeitY, GoI <br>•	Dr. Murali Mohan, Mission Director, NM-ICPS , DST , GoI</td>
+              </tr>
+               <tr>
+				<td>11:40 AM to 12:10 PM <br> 12:15 PM to 12:45 PM  </td>
+                <td>Research & Development and <br> User Perspective I<br><br>Event-triggering for control under constrained resources<br><br>Electro-medical device Testing as per IEC/ISO standards</td>
+                <td><br><br><br>• Dr. Pavankumar Tallapragada , Assistant Professor , IISc <br><br><br>• Shri. Venkataramana Anant Bhagavati
+Advisor – Medical Devices & IVD
+International Centre for Automotive Technology, GoI</td>
+              </tr>
+              <tr>
+				<td>02:00 PM to 02:30 PM <br> 02:35 PM to 03:05 PM</td>  
+                <td>Research & Development and <br> User Perspective II<br><br>CPS security challenges in Indian Powersector<br><br>CAD4CPS: Computer Aided Design for Life-Critical Cyber-Physical Systems in Health and Energy sectors</td>
+                <td><br><br><br>• Shri KVS Baba, Chairman and CMD Power System Operation Corporation Limited (POSOCO)<br><br>• Prof. Rahul Mangharam, University of Pennsylvania, (USA)</td>
+              </tr>
+              <tr> 
+				<td>03:15 PM to 4:15 PM</td>  
+                <td>Panel Discussion <br>Cyber Physical Systems – Safety & Cyber Assurance   Challenges</td>
+                <td>• Shri M.A.K.P. Singh<br>
+				•	Dr Krishnashree Achuthan<br>
+				•	Prof. Soumyajit Dey<br>
+				•	Dr. Prasant Misra, Scientist<br>
+        • Moderator : Bindhumadhava B S </td>
+              </tr>
+              <tr>
+                <td>4:30 PM onwards</td>
+                <td>Valedictory Session</td>
+                <td></td>
+              </tr>
+              </tr>
+            </tbody>
+         </table>
+      </div>
+    </div>
+
+
+  <div id="speakers" class="row">
+  <h2 class="keyNotetitle">Speakers</h2>
+  <div class="row">
+		<div class="col-md-3">
+			<div class="thumbnail">
+				<a href="#" data-toggle="modal" data-target="#kris">
+				<img src="./img/kris.jpg" alt="desh">
+				<div class="caption">
+                <h3>Kris Gopalakrishnan</h3>
+                <p>Chairman</p><p></p>
+                <p class="flipkart">Axilor Ventures</p>
+              </div>
+            </a>
+          </div>
+      </div>
+
+      
+        
+        
+    </div>
+       
+     </div>   
+    
+    <div class="row" id="organizing">
+      <h2 class="title">Organizing Team</h2>
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="thumbnail">
+            <a href="#" data-toggle="modal" data-target="#">
+              <img src="./img/chair.jpg" alt="desh">
+              <div class="caption">
+                <h3>Bindhumadhava B S</h3>
+                <p>Advisor</p><p></p>
+                <p class="flipkart">CDAC</p>
+              </div>
+            </a>
+          </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+            <a href="#" data-toggle="modal" data-target="#">
+              <img src="./img/Deepa.jpg" alt="deepa">
+              <div class="caption">
+                <h3>Deepa Shenoy</h3>
+                <p>Advisor</p><p></p>
+                <p class="flipkart">UVCE</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+            <a href="#" data-toggle="modal" data-target="#ankit">
+              <img src="./img/ankit.png" alt="ankit">
+              <div class="caption">
+                <h3>Ankit Mathur</h3>
+                <p>Program Co-Chair</p><p>Chief Architect, Storage</p>
+                <p class="flipkart">Huawei</p>
+              </div>
+            </a>
+          </div>
+    </div>
+         <div class="col-md-3">
+          <div class="thumbnail">
+              <a href="#" data-toggle="modal" data-target="#desh">
+                <img src="./img/desh.jpg" alt="desh">
+                <div class="caption">
+                  <h3>Deshbandhu Sinha</h3>
+                  <p>Program Co-Chair</p><p>Head Academia Collaboration</p>
+                  <p class="flipkart">Huawei</p>
+                </div>
+              </a>
+            </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="thumbnail">
+            <a href="#" data-toggle="modal" data-target="#prasant">
+              <img src="./img/prasant.jpg" alt="desh">
+              <div class="caption">
+                <h3>Prasant Misra</h3>
+                <p>Program Co-Chair</p><p></p>
+                <p class="flipkart">TCS Research</p>
+              </div>
+            </a>
+          </div>
+      </div>
+    <div class="col-md-3">
+        <div class="thumbnail">
+            <a href="#" data-toggle="modal" data-target="#chengapa">
+              <img src="./img/Chengappa M. R..png" alt="desh">
+              <div class="caption">
+                <h3>Chengappa M. R</h3>
+                <p>Program Co-Chair</p><p></p>
+                <p class="flipkart">Hewlett Packard Enterprise</p>
+              </div>
+            </a>
+          </div>
+    </div>
+    
+    
+      <div class="col-md-3">
+          <div class="thumbnail">
+              <a href="#" data-toggle="modal" data-target="#ketan">
+                <img src="./img/Ketan.jpg" alt="desh">
+                <div class="caption">
+                  <h3>Ketan Keshav</h3>
+                  <p>WebMaster and Web Analyst</p><p></p>
+                  <p class="flipkart">KreditBee</p>
+                </div>
+              </a>
+            </div>
+        </div>
+    </div>
+</div>
+  
+      
+   
+     <div class="row">
+      <h2 class="title">Website Team</h2>
+      <div class="col-md-3">
+        <div class="thumbnail">
+            <a href="#" data-toggle="modal" data-target="#">
+              <img src="./img/Nagalekha.jpg" alt="">
+              <div class="caption">
+                <h3>Nagalekha Ramesh</h3>
+                <p>Software Engineer</p>
+                <p class="flipkart">Dotgo Private Limited</p>
+              </div>
+            </a>
+          </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+            <a href="#" data-toggle="modal" data-target="#">
+              <img src="./img/Rashi.jpg" alt="">
+              <div class="caption">
+                <h3>Rashi </h3>
+                <p>MSR</p>
+                <p class="flipkart">IEEE Bangalore Section</p>
+              </div>
+            </a>
+          </div>
+      </div>
+    </div>-->
+    
+</div>
+
+
+<!--<div class="row">
+<center><a href="https://ieeebangalore.org/product-category/ieee-cps/"><button class="button button1">Register now!</button></a></center>
+</div>-->
+
+
+<div class="container-fluid statusOverlay">
+    <div class="container status">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Hosted By</h2>
+                <div class="divider"></div>
+                <div class="flogo">
+                  <img src="./img/Bangalore Section Logo white-01.png" alt="ieee" />
+                </div>
+                <p>No-26/1, 5th Floor, WTC-Brigade,<br/> Dr. Rajkumar Road, Malleshwaram, Bangalore-560055</p>
+                <h2>Stay Connected</h2>
+            </div>
+            <div class="col-md-4 cohosted">
+               <h2>Partner</h2>
+
+            </div>
+            <div class="col-md-4">
+                <h2>Send a Message</h2>
+                <div class="divider"></div>
+                <div class="btc"><a href="#">chair@ieeebangalore.org</a></div>
+                <h2>Call us no</h2>
+                <a href="#" class="no">180010334533</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var header = document.getElementById("myHeader");
+  var sticky = header.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+  </script>
+</body>
+</html>
